@@ -21,7 +21,7 @@ var rnd *renderer.Render
 var db *mgo.Database
 
 const (
-	hostName       string = "mongodb+srv://goakhil:goakhil@cluster0.dzbvjb1.mongodb.net/"
+	hostName       string = "mongodb+srv://<usr>:<pw>@cluster0.dzbvjb1.mongodb.net/"
 	dbName         string = "demo_todo"
 	collectionName string = "todo"
 	port           string = ":9000"
